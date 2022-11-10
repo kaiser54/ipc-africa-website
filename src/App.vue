@@ -11,13 +11,13 @@
           <router-link :to="{ name: 'about' }">About Us</router-link>
         </li>
         <li>
-          <router-link :to="{ name: '' }">Contact Us</router-link>
+          <router-link :to="{ name: 'about' }">Contact Us</router-link>
         </li>
         <li>
-          <router-link :to="{ name: '' }">Services</router-link>
+          <router-link :to="{ name: 'home' }">Services</router-link>
         </li>
         <li class="btn">
-          <router-link :to="{ name: '' }">
+          <router-link :to="{ name: 'about' }">
             <buttonFill />
           </router-link>
           <router-link :to="{ name: '' }" class="none">
