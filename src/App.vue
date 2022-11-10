@@ -55,7 +55,8 @@
           <router-link :to="{ name: '' }">Contact Us</router-link>
         </li>
         <li>
-          <router-link :to="{ name: '' }">Services</router-link>
+          <a href="#services">go</a>
+          <!-- <router-link :to="{ name: '#services' }">Services</router-link> -->
         </li>
       </ul>
 

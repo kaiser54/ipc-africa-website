@@ -36,7 +36,7 @@
     </div>
   </div>
 
-  <div class="main-wrap">
+  <div class="main-wrap" id="services">
     <div class="container">
       <div class="text-group">
         <p class="small-head">OUR SERVICES</p>
