@@ -9,6 +9,10 @@ const routes = [
     component: HomeView
   },
   {
+    path: '/*',
+    component: 404
+    },
+  {
     path: '/about',
     name: 'about',
     component: AboutView
