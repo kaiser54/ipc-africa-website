@@ -2,7 +2,7 @@ const express = require('express');
 const request = require('request');
 const bodyParser = require('body-parser');
 const path = require('path');
-const { response } = require('express');
+// const { response } = require('express');
 
 const app = express();
 
@@ -13,7 +13,7 @@ app.use(bodyParser.urlencoded({extended: false}));
 app.use(express.static(path.join(__dirname, 'dist')))
 
 app.post('/subscribe', (req, res) => {
-    // console.log('hey')
+    // console.log('yes');
     const {email, js} = req.body;
     console.log(req.body);
 
@@ -22,7 +22,7 @@ app.post('/subscribe', (req, res) => {
         members: [
             {
                 email_address: email,
-                status: 'Subscribed'
+                status: 'subscribed'
             }
         ]
     }
@@ -58,4 +58,4 @@ app.post('/subscribe', (req, res) => {
 
 const PORT = process.env.PORT || 5000;
 
-app.listen(PORT, console.log('server started'))
+app.listen(PORT, console.log('server started'));

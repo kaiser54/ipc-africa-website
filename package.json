@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "node": "vue-cli-service serve",
     "serve": "node app",
     "build": "vue-cli-service build",
     "dev": "nodemon app"
@@ -35,4 +36,3 @@
   },
   "homepage": "https://github.com/kaiser54/IPC#readme"
 }
-

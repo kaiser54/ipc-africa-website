@@ -22,7 +22,7 @@
               </p>
             </div>
             <div class="btn">
-              <router-link :to="{ name: '' }">
+              <router-link :to="{ name: 'about' }">
                 <buttonFill />
               </router-link>
               <router-link :to="{ name: '' }" style="display: flex">
