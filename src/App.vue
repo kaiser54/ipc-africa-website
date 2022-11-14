@@ -1,20 +1,21 @@
 <template>
   <div class="wrapper">
     <nav>
-      <input type="checkbox" id="nav-toggle" />
+      <!-- <input type="checkbox" id="nav-toggle" /> -->
       <router-link :to="{ name: 'home' }"
         ><img src="./assets/logo.png" alt="IPC logo"
       /></router-link>
 
-      <ul>
+      <ul :class="{ nav_toggle: isActive }" @click="toggleNav">
         <li>
-          <router-link :to="{ name: 'about' }">About Us</router-link>
+          <router-link :to="{ name: 'home' }">About Us</router-link>
         </li>
         <li>
           <router-link :to="{ name: 'about' }">Contact Us</router-link>
         </li>
         <li>
-          <router-link :to="{ name: 'home' }">Services</router-link>
+          <a href="#services">Services</a>
+          <!-- <router-link :to="{ name: '#services' }">Services</router-link> -->
         </li>
         <li class="btn">
           <router-link :to="{ name: 'about' }">
@@ -26,11 +27,13 @@
         </li>
       </ul>
 
-      <label for="nav-toggle" class="icon-burger">
+      <div :class="{ nav_toggle: isActive }" class="disp-none">
+        <label @click="toggleNav" class="icon-burger">
         <div class="line"></div>
         <div class="line"></div>
         <div class="line"></div>
       </label>
+      </div>
     </nav>
   </div>
   <router-view />
@@ -55,7 +58,7 @@
           <router-link :to="{ name: '' }">Contact Us</router-link>
         </li>
         <li>
-          <a href="#services">go</a>
+          <a href="#services">Services</a>
           <!-- <router-link :to="{ name: '#services' }">Services</router-link> -->
         </li>
       </ul>
@@ -112,6 +115,16 @@ export default {
     buttonFill,
     buttonOutline,
   },
+  data () {
+    return {
+      isActive: false
+    }
+  },
+  methods: {
+    toggleNav() {
+      this.isActive = !this.isActive
+    }
+  }
 };
 </script>
 
@@ -210,10 +223,10 @@ ul {
   gap: 30px;
 }
 
-#nav-toggle {
+/* #nav-toggle {
   position: absolute;
   top: -100px;
-}
+} */
 
 nav .icon-burger {
   display: none;
@@ -299,6 +312,10 @@ footer .logo-p p {
   gap: 24px;
 }
 
+nav .disp-none {
+  display: none;
+}
+
 @media (max-width: 992px) {
   nav {
     width: 90%;
@@ -307,6 +324,10 @@ footer .logo-p p {
   ul {
     gap: 15px;
   }
+nav .disp-none {
+  display: block;
+}
+
 }
 
 @media screen and (max-width: 992px) {
@@ -343,14 +364,14 @@ footer .logo-p p {
     font-size: 20px;
   }
 
-  nav :checked ~ ul {
-    bottom: 0;
+ul.nav_toggle {
+    bottom: 0 !important;
     margin-top: 19px;
     padding-top: 41px;
   }
 
-  nav :checked ~ .none {
-    display: flex;
+  .nav_toggle .none {
+    display: flex !important;
   }
 
   nav .icon-burger {
@@ -360,16 +381,16 @@ footer .logo-p p {
     gap: 2px;
   }
 
-  nav :checked ~ .icon-burger .line:nth-child(1) {
+  nav .nav_toggle .icon-burger .line:nth-child(1) {
     transform: translateY(1px) rotate(225deg);
   }
 
-  nav :checked ~ .icon-burger .line:nth-child(3) {
+  nav .nav_toggle .icon-burger .line:nth-child(3) {
     transform: translateY(-7.5px) rotate(-225deg);
     width: 20px;
   }
 
-  nav :checked ~ .icon-burger .line:nth-child(2) {
+  nav .nav_toggle .icon-burger .line:nth-child(2) {
     opacity: 0;
   }
 
