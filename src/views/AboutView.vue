@@ -105,6 +105,8 @@
             })
         }
 
+        this.email_value = ""
+
       }
     }
   }
