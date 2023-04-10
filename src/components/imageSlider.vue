@@ -1,282 +1,277 @@
 <template>
-    <div class="slider">
-        <div class="slide-track">
-            <div class="slide">
-                <div class="slide-box">
-                    <img src="../assets/slide1.png" alt="">
-                    <p class="slide-box-head">Papa’s Grill</p>
-                    <p class="slide-box-body">We are a take out & delivery Grill House Restaurant dedicated to taking
-                        our customers on a
-                        Culinary
-                        Page · Fast food restaurant</p>
-                </div>
-            </div>
-            <div class="slide">
-                <div class="slide-box">
-                    <img src="../assets/slide2.png" alt="">
-                    <p class="slide-box-head">Spicy Corner</p>
-                    <p class="slide-box-body">We are a take out & delivery Grill House Restaurant dedicated to taking
-                        our customers on a
-                        Culinary
-                        Page · Fast food restaurant</p>
-                </div>
-            </div>
-            <div class="slide">
-                <div class="slide-box">
-                    <img src="../assets/slide3.png" alt="">
-                    <p class="slide-box-head">City subs</p>
-                    <p class="slide-box-body">We are a take out & delivery Grill House Restaurant dedicated to taking
-                        our customers on a
-                        Culinary
-                        Page · Fast food restaurant</p>
-                </div>
-            </div>
-            <div class="slide">
-                <div class="slide-box">
-                    <img src="../assets/slide1.png" alt="">
-                    <p class="slide-box-head">Papa’s Grill</p>
-                    <p class="slide-box-body">We are a take out & delivery Grill House Restaurant dedicated to taking
-                        our customers on a
-                        Culinary
-                        Page · Fast food restaurant</p>
-                </div>
-            </div>
-            <div class="slide">
-                <div class="slide-box">
-                    <img src="../assets/slide2.png" alt="">
-                    <p class="slide-box-head">Spicy Corner</p>
-                    <p class="slide-box-body">We are a take out & delivery Grill House Restaurant dedicated to taking
-                        our customers on a
-                        Culinary
-                        Page · Fast food restaurant</p>
-                </div>
-            </div>
-            <div class="slide">
-                <div class="slide-box">
-                    <img src="../assets/slide3.png" alt="">
-                    <p class="slide-box-head">City subs</p>
-                    <p class="slide-box-body">We are a take out & delivery Grill House Restaurant dedicated to taking
-                        our customers on a
-                        Culinary
-                        Page · Fast food restaurant</p>
-                </div>
-            </div>
-            <div class="slide">
-                <div class="slide-box">
-                    <img src="../assets/slide1.png" alt="">
-                    <p class="slide-box-head">Papa’s Grill</p>
-                    <p class="slide-box-body">We are a take out & delivery Grill House Restaurant dedicated to taking
-                        our customers on a
-                        Culinary
-                        Page · Fast food restaurant</p>
-                </div>
-            </div>
-            <div class="slide">
-                <div class="slide-box">
-                    <img src="../assets/slide2.png" alt="">
-                    <p class="slide-box-head">Spicy Corner</p>
-                    <p class="slide-box-body">We are a take out & delivery Grill House Restaurant dedicated to taking
-                        our customers on a
-                        Culinary
-                        Page · Fast food restaurant</p>
-                </div>
-            </div>
-            <div class="slide">
-                <div class="slide-box">
-                    <img src="../assets/slide3.png" alt="">
-                    <p class="slide-box-head">City subs</p>
-                    <p class="slide-box-body">We are a take out & delivery Grill House Restaurant dedicated to taking
-                        our customers on a
-                        Culinary
-                        Page · Fast food restaurant</p>
-                </div>
-            </div>
-            <div class="slide">
-                <div class="slide-box">
-                    <img src="../assets/slide1.png" alt="">
-                    <p class="slide-box-head">Papa’s Grill</p>
-                    <p class="slide-box-body">We are a take out & delivery Grill House Restaurant dedicated to taking
-                        our customers on a
-                        Culinary
-                        Page · Fast food restaurant</p>
-                </div>
-            </div>
-            <div class="slide">
-                <div class="slide-box">
-                    <img src="../assets/slide2.png" alt="">
-                    <p class="slide-box-head">Spicy Corner</p>
-                    <p class="slide-box-body">We are a take out & delivery Grill House Restaurant dedicated to taking
-                        our customers on a
-                        Culinary
-                        Page · Fast food restaurant</p>
-                </div>
-            </div>
-            <div class="slide">
-                <div class="slide-box">
-                    <img src="../assets/slide3.png" alt="">
-                    <p class="slide-box-head">City subs</p>
-                    <p class="slide-box-body">We are a take out & delivery Grill House Restaurant dedicated to taking
-                        our customers on a
-                        Culinary
-                        Page · Fast food restaurant</p>
-                </div>
-            </div>
-            <div class="slide">
-                <div class="slide-box">
-                    <img src="../assets/slide1.png" alt="">
-                    <p class="slide-box-head">Papa’s Grill</p>
-                    <p class="slide-box-body">We are a take out & delivery Grill House Restaurant dedicated to taking
-                        our customers on a
-                        Culinary
-                        Page · Fast food restaurant</p>
-                </div>
-            </div>
-            <div class="slide">
-                <div class="slide-box">
-                    <img src="../assets/slide2.png" alt="">
-                    <p class="slide-box-head">Spicy Corner</p>
-                    <p class="slide-box-body">We are a take out & delivery Grill House Restaurant dedicated to taking
-                        our customers on a
-                        Culinary
-                        Page · Fast food restaurant</p>
-                </div>
-            </div>
-            <div class="slide">
-                <div class="slide-box">
-                    <img src="../assets/slide3.png" alt="">
-                    <p class="slide-box-head">City subs</p>
-                    <p class="slide-box-body">We are a take out & delivery Grill House Restaurant dedicated to taking
-                        our customers on a
-                        Culinary
-                        Page · Fast food restaurant</p>
-                </div>
-            </div>
-            <div class="slide">
-                <div class="slide-box">
-                    <img src="../assets/slide1.png" alt="">
-                    <p class="slide-box-head">Papa’s Grill</p>
-                    <p class="slide-box-body">We are a take out & delivery Grill House Restaurant dedicated to taking
-                        our customers on a
-                        Culinary
-                        Page · Fast food restaurant</p>
-                </div>
-            </div>
-            <div class="slide">
-                <div class="slide-box">
-                    <img src="../assets/slide2.png" alt="">
-                    <p class="slide-box-head">Spicy Corner</p>
-                    <p class="slide-box-body">We are a take out & delivery Grill House Restaurant dedicated to taking
-                        our customers on a
-                        Culinary
-                        Page · Fast food restaurant</p>
-                </div>
-            </div>
-            <div class="slide">
-                <div class="slide-box">
-                    <img src="../assets/slide3.png" alt="">
-                    <p class="slide-box-head">City subs</p>
-                    <p class="slide-box-body">We are a take out & delivery Grill House Restaurant dedicated to taking
-                        our customers on a
-                        Culinary
-                        Page · Fast food restaurant</p>
-                </div>
-            </div>
+  <div class="slider">
+    <div class="slide-track">
+      <div class="slide">
+        <div class="slide-box">
+          <img src="../assets/slide1.png" alt="" />
+          <p class="slide-box-head">Papa’s Grill</p>
+          <p class="slide-box-body">
+            We are a take out & delivery Grill House Restaurant dedicated to taking our
+            customers on a Culinary Page · Fast food restaurant
+          </p>
         </div>
+      </div>
+      <div class="slide">
+        <div class="slide-box">
+          <img src="../assets/slide2.png" alt="" />
+          <p class="slide-box-head">Spicy Corner</p>
+          <p class="slide-box-body">
+            We are a take out & delivery Grill House Restaurant dedicated to taking our
+            customers on a Culinary Page · Fast food restaurant
+          </p>
+        </div>
+      </div>
+      <div class="slide">
+        <div class="slide-box">
+          <img src="../assets/slide3.png" alt="" />
+          <p class="slide-box-head">City subs</p>
+          <p class="slide-box-body">
+            We are a take out & delivery Grill House Restaurant dedicated to taking our
+            customers on a Culinary Page · Fast food restaurant
+          </p>
+        </div>
+      </div>
+      <div class="slide">
+        <div class="slide-box">
+          <img src="../assets/slide1.png" alt="" />
+          <p class="slide-box-head">Papa’s Grill</p>
+          <p class="slide-box-body">
+            We are a take out & delivery Grill House Restaurant dedicated to taking our
+            customers on a Culinary Page · Fast food restaurant
+          </p>
+        </div>
+      </div>
+      <div class="slide">
+        <div class="slide-box">
+          <img src="../assets/slide2.png" alt="" />
+          <p class="slide-box-head">Spicy Corner</p>
+          <p class="slide-box-body">
+            We are a take out & delivery Grill House Restaurant dedicated to taking our
+            customers on a Culinary Page · Fast food restaurant
+          </p>
+        </div>
+      </div>
+      <div class="slide">
+        <div class="slide-box">
+          <img src="../assets/slide3.png" alt="" />
+          <p class="slide-box-head">City subs</p>
+          <p class="slide-box-body">
+            We are a take out & delivery Grill House Restaurant dedicated to taking our
+            customers on a Culinary Page · Fast food restaurant
+          </p>
+        </div>
+      </div>
+      <div class="slide">
+        <div class="slide-box">
+          <img src="../assets/slide1.png" alt="" />
+          <p class="slide-box-head">Papa’s Grill</p>
+          <p class="slide-box-body">
+            We are a take out & delivery Grill House Restaurant dedicated to taking our
+            customers on a Culinary Page · Fast food restaurant
+          </p>
+        </div>
+      </div>
+      <div class="slide">
+        <div class="slide-box">
+          <img src="../assets/slide2.png" alt="" />
+          <p class="slide-box-head">Spicy Corner</p>
+          <p class="slide-box-body">
+            We are a take out & delivery Grill House Restaurant dedicated to taking our
+            customers on a Culinary Page · Fast food restaurant
+          </p>
+        </div>
+      </div>
+      <div class="slide">
+        <div class="slide-box">
+          <img src="../assets/slide3.png" alt="" />
+          <p class="slide-box-head">City subs</p>
+          <p class="slide-box-body">
+            We are a take out & delivery Grill House Restaurant dedicated to taking our
+            customers on a Culinary Page · Fast food restaurant
+          </p>
+        </div>
+      </div>
+      <div class="slide">
+        <div class="slide-box">
+          <img src="../assets/slide1.png" alt="" />
+          <p class="slide-box-head">Papa’s Grill</p>
+          <p class="slide-box-body">
+            We are a take out & delivery Grill House Restaurant dedicated to taking our
+            customers on a Culinary Page · Fast food restaurant
+          </p>
+        </div>
+      </div>
+      <div class="slide">
+        <div class="slide-box">
+          <img src="../assets/slide2.png" alt="" />
+          <p class="slide-box-head">Spicy Corner</p>
+          <p class="slide-box-body">
+            We are a take out & delivery Grill House Restaurant dedicated to taking our
+            customers on a Culinary Page · Fast food restaurant
+          </p>
+        </div>
+      </div>
+      <div class="slide">
+        <div class="slide-box">
+          <img src="../assets/slide3.png" alt="" />
+          <p class="slide-box-head">City subs</p>
+          <p class="slide-box-body">
+            We are a take out & delivery Grill House Restaurant dedicated to taking our
+            customers on a Culinary Page · Fast food restaurant
+          </p>
+        </div>
+      </div>
+      <div class="slide">
+        <div class="slide-box">
+          <img src="../assets/slide1.png" alt="" />
+          <p class="slide-box-head">Papa’s Grill</p>
+          <p class="slide-box-body">
+            We are a take out & delivery Grill House Restaurant dedicated to taking our
+            customers on a Culinary Page · Fast food restaurant
+          </p>
+        </div>
+      </div>
+      <div class="slide">
+        <div class="slide-box">
+          <img src="../assets/slide2.png" alt="" />
+          <p class="slide-box-head">Spicy Corner</p>
+          <p class="slide-box-body">
+            We are a take out & delivery Grill House Restaurant dedicated to taking our
+            customers on a Culinary Page · Fast food restaurant
+          </p>
+        </div>
+      </div>
+      <div class="slide">
+        <div class="slide-box">
+          <img src="../assets/slide3.png" alt="" />
+          <p class="slide-box-head">City subs</p>
+          <p class="slide-box-body">
+            We are a take out & delivery Grill House Restaurant dedicated to taking our
+            customers on a Culinary Page · Fast food restaurant
+          </p>
+        </div>
+      </div>
+      <div class="slide">
+        <div class="slide-box">
+          <img src="../assets/slide1.png" alt="" />
+          <p class="slide-box-head">Papa’s Grill</p>
+          <p class="slide-box-body">
+            We are a take out & delivery Grill House Restaurant dedicated to taking our
+            customers on a Culinary Page · Fast food restaurant
+          </p>
+        </div>
+      </div>
+      <div class="slide">
+        <div class="slide-box">
+          <img src="../assets/slide2.png" alt="" />
+          <p class="slide-box-head">Spicy Corner</p>
+          <p class="slide-box-body">
+            We are a take out & delivery Grill House Restaurant dedicated to taking our
+            customers on a Culinary Page · Fast food restaurant
+          </p>
+        </div>
+      </div>
+      <div class="slide">
+        <div class="slide-box">
+          <img src="../assets/slide3.png" alt="" />
+          <p class="slide-box-head">City subs</p>
+          <p class="slide-box-body">
+            We are a take out & delivery Grill House Restaurant dedicated to taking our
+            customers on a Culinary Page · Fast food restaurant
+          </p>
+        </div>
+      </div>
     </div>
+  </div>
 </template>
 
 <script>
 export default {
-    name: "imageSlider",
+  name: "imageSlider",
 };
 </script>
 
 <style>
 .slider {
-    margin: auto;
-    overflow: hidden;
-    position: relative;
-    width: 100%;
-    /* margin-bottom: 65px; */
-    max-width: 1581px;
+  margin: auto;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  /* margin-bottom: 65px; */
+  max-width: 1581px;
 }
 
 .slide-track {
-    animation: scroll 100s linear infinite;
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 0px;
-    gap: 24px;
-    width: calc(500px * 15);
+  animation: scroll 100s linear infinite;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 24px;
+  width: calc(500px * 15);
 }
 
 .slider .slide {
-    width: auto;
+  width: auto;
 }
 
 .slide-box {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 32px;
-    gap: 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 32px;
+  gap: 32px;
 
-    max-width: 297px;
+  max-width: 297px;
 
-    /* White */
+  /* White */
 
-    background: #FFFFFF;
-    /* Neutral/neutral-100 */
+  background: #ffffff;
+  /* Neutral/neutral-100 */
 
-    border: 1px solid #B8B8BA;
-    border-radius: 16px;
+  border: 1px solid #b8b8ba;
+  border-radius: 16px;
 }
 
 .slide-box .slide-box-head {
-    font-size: 20px;
-    line-height: 30px;
-    /* identical to box height, or 150% */
+  font-size: 20px;
+  line-height: 30px;
+  /* identical to box height, or 150% */
 
-    letter-spacing: 0.005em;
+  letter-spacing: 0.005em;
 
-    /* Primary/primary-900 */
+  /* Primary/primary-900 */
 
-    color: #00044B;
-
+  color: #00044b;
 }
 
 .slide-box .slide-box-body {
-    font-size: 16px;
-    line-height: 24px;
-    /* or 150% */
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
 
-    letter-spacing: 0.01em;
+  letter-spacing: 0.01em;
 
-    /* Neutral/neutral-300 */
+  /* Neutral/neutral-300 */
 
-    color: #666669;
-
+  color: #666669;
 }
 
 .slide-box img {
-    width: 71px;
-    height: 71px;
+  width: 71px;
+  height: 71px;
 }
 
 @keyframes scroll {
-    0% {
-        transform: translateX(0);
-    }
+  0% {
+    transform: translateX(0);
+  }
 
-    100% {
-        transform: translateX(calc(-500px * 8));
-    }
+  100% {
+    transform: translateX(calc(-500px * 8));
+  }
 }
 </style>
-
-
-
 
 <!-- 
 <template>

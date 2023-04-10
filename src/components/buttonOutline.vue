@@ -29,7 +29,7 @@ export default {
   flex-direction: row-reverse;
 }
 button p {
-  font-family: "GeneralSans-Medium";
+  font-family: "GeneralSans-Medium", "DM Sans", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -45,6 +45,6 @@ button p {
   stroke: var(--fc-blue);
 }
 .buttonOutline:hover {
-    background: #E6E6F7;
+  background: #e6e6f7;
 }
 </style>
