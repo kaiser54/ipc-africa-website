@@ -21,6 +21,9 @@
 </template>
 
 <style scoped>
+/* .wrapper {
+    display: none !important;
+} */
 .__vue-error-page {
     padding: 1rem;
     background: #F7F8FB;

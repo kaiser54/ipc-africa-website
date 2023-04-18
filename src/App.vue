@@ -38,9 +38,11 @@
       </div>
     </nav>
   </div>
-  <router-view style="
-    min-height: calc(100vh - 150px);
-"/>
+  <div style="min-height: calc(100vh - 150px)">
+    <router-view />
+</div>
+
+  
   <div id="sitelock_shield_logo" class="fixed_btm">
     <a
       href="#"

@@ -4,6 +4,8 @@ import AboutView from '../views/AboutView.vue'
 import BlogView from '../views/BlogView.vue'
 import Blogpost from '../views/Blogpost.vue'
 import services from '@/components/services.vue'
+import jsonData from '@/../public/data.json';
+
 
 const routes = [
   {
@@ -26,16 +28,34 @@ const routes = [
   //   name: 'Blogpost',
   //   component: Blogpost
   // },
-  {
-    path: '/blog/:postTitle',
-    // path: '/blog/postsss',
-    name: 'blogPost',
-    component: Blogpost,
-    props: true
-  },
+  // {
+  //   path: '/blog/:postTitle',
+  //   // path: '/blog/postsss',
+  //   name: 'blogPost',
+  //   component: Blogpost,
+  //   props: true
+  // },
   {
     path: '/:pathMatch(.*)*',
     component: () => import('@/views/404page.vue')
+  },
+  { path: '/Page not found', component: () => import('@/views/404page.vue') },
+  { path: '/:pathMatch(.*)*', redirect: '/404' },
+  {
+    path: '/blog/:postTitle',
+    name: 'blogPost',
+    component: Blogpost,
+    props: true,
+    beforeEnter: (to, from, next) => {
+      const postTitle = to.params.postTitle;
+      const postExists = jsonData.some(post => post.postTitle === postTitle);
+
+      if (postExists) {
+        next();
+      } else {
+        next('/:pathMatch(.*)*');
+      }
+    }
   },
   
   // {
