@@ -186,4 +186,7 @@ a:hover .shift {
     display: inline !important;
   }
 }
+.router-link-active {
+  color: #0009b3;
+}
 </style>

@@ -3,11 +3,11 @@
     <title>Blog - Independece Purchasing Company</title>
     <meta
       name="description"
-      content="Independence Purchasing Company is a leading procurement services provider, offering experienced professionals, tailored procurement services, and a commitment to cost-effectiveness. Read on to learn why we're the best choice for your procurement needs."
+      content="Independent Purchasing Company is a leading procurement services provider, offering experienced professionals, tailored procurement services, and a commitment to cost-effectiveness. Read on to learn why we're the best choice for your procurement needs."
     />
     <meta
       name="keywords"
-      content="Independence Purchasing Company, procurement services, procurement, procurement professionals, cost-effective procurement, business procurement"
+      content="Independent Purchasing Company, procurement services, procurement, procurement professionals, cost-effective procurement, business procurement"
     />
   </head>
   <div class="blog-container">

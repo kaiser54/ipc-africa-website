@@ -23,7 +23,7 @@
           <router-link :to="{ name: 'about' }">
             <buttonFill />
           </router-link>
-          <router-link :to="{ name: '' }" class="none">
+          <router-link :to="{ name: 'home' }" class="none">
             <buttonOutline />
           </router-link>
         </li>
@@ -421,7 +421,15 @@ nav .disp-none {
 .link-color {
   color: #0009b3 !important;
 }
-
+.router-link-active .router-link-exact-active {
+  color: #0009b3;
+}
+.router-link-exact-active {
+  color: #0009b3;
+}
+.router-link-active {
+  color: #0009b3;
+}
 
 
 

@@ -418,4 +418,7 @@ export default {
     display: none;
   }
 }
+.router-link-active .router-link-exact-active {
+  color: #0009b3;
+}
 </style>
