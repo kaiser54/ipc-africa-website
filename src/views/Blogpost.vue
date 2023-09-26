@@ -97,6 +97,7 @@ export default {
       myPostTitle: this.$route.params.postTitle,
       myData: {},
       profile: "",
+      
     };
   },
   methods: {

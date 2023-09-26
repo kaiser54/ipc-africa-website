@@ -4,7 +4,9 @@ import AboutView from '../views/AboutView.vue'
 import BlogView from '../views/BlogView.vue'
 import Blogpost from '../views/Blogpost.vue'
 import services from '@/components/services.vue'
-import jsonData from '@/../public/data.json';
+import jsonData from '@/../public/data.json'
+import TermsConditions from '../views/TermsConditions.vue'
+import Privacy from '../views/Privacy.vue'
 
 
 const routes = [
@@ -22,6 +24,16 @@ const routes = [
     path: '/blog',
     name: 'blog',
     component: BlogView
+  },
+  {
+    path: '/TermsConditions',
+    name: 'TermsConditions',
+    component: TermsConditions
+  },
+  {
+    path: '/Privacy',
+    name: 'Privacy',
+    component: Privacy
   },
   // {
   //   path: '/blogpost',

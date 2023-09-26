@@ -27,6 +27,14 @@
             <router-link :to="{ name: 'about' }">Contact Us</router-link>
           </li>
         </ul>
+        <ul>
+          <li>
+            <router-link :to="{ name: 'TermsConditions' }">Terms & Conditions</router-link>
+          </li>
+          <li>
+            <router-link :to="{ name: 'Privacy' }">Privacy</router-link>
+          </li>
+        </ul>
 
         <div class="social-group">
           <div class="socials">
