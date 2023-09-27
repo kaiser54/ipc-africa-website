@@ -373,6 +373,12 @@ export default {
   .bookmark-group {
     display: none;
   }
+  p {
+    font-size: 16px !important;
+    font-style: normal;
+    font-weight: 500 !important;
+    line-height: 24px !important;
+  }
   .bookmark-content {
     max-width: 100%;
     width: 100%;
@@ -393,12 +399,10 @@ export default {
   }
   #terms h1 {
     color: #00044b;
-    font-family: "GeneralSans-Medium", "DM Sans", sans-serif;
-    font-size: 32px;
+    font-size: 24px;
     font-style: normal;
     font-weight: 600;
-    line-height: normal;
-    letter-spacing: -0.48px;
+    line-height: 36px; /* 150% */
   }
   #change h6,
   #contact h6 {
@@ -407,17 +411,17 @@ export default {
     font-weight: 600;
   }
   #terms {
-	gap: 16px;
-	margin-top: 16px;
+    gap: 16px;
+    margin-top: 16px;
   }
   #terms p {
-  color: var(--grey-grey-3, #7e8494);
-  font-family: "GeneralSans-Medium", "DM Sans", sans-serif;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 24px;
-  /* 150% */
-}
+    color: var(--grey-grey-3, #7e8494);
+    font-family: "GeneralSans-Medium", "DM Sans", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    /* 150% */
+  }
 }
 </style>
