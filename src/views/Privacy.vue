@@ -1,5 +1,5 @@
 <template>
-    <div class="body">
+    <div class="body_wrap">
         <div class="container">
             <div class="bookmark-group">
                 <h2>ON THIS PAGE</h2>
@@ -42,7 +42,7 @@
                     <div id="terms">
                         <h1>Private Policy</h1>
                         <p class="first">
-                            Independent Purchasing Company Ltd built the The App app as a Free app. This SERVICE is provided
+                            Independent Purchasing Company Ltd built the The App app as a Free app. This Service is provided
                             by Independent Purchasing Company Ltd at no cost and is intended for use as is. This page is
                             used to inform visitors regarding our policies with the collection, use, and disclosure of
                             Personal Information if anyone decided to use our Service. If you choose to use our Service,
@@ -68,10 +68,10 @@
                         </p>
                     </div>
                     <div class="links">
-                        <a href="#">Google Play Services</a>
-                        <a href="#">Google Analytics for Firebase </a>
-                        <a href="#">Firebase Crashlytics</a>
-                        <a href="#"> Expo</a>
+                        <a href="https://policies.google.com/terms" target="_blank">Google Play Services</a>
+                        <a href="https://firebase.google.com/terms/analytics" target="_blank">Google Analytics for Firebase </a>
+                        <a href="https://firebase.google.com/terms/crashlytics" target="_blank">Firebase Crashlytics</a>
+                        <a href="https://expo.dev/terms" target="_blank"> Expo</a>
                     </div>
                 </div>
                 <div id="log" class="private">
@@ -211,8 +211,8 @@ export default {
     text-align: justify;
 }
 
-.body {
-    padding: 64px 0px 64px 0px;
+.body_wrap {
+    padding: 64px 0px;
 }
 
 .container {
@@ -288,8 +288,7 @@ export default {
     letter-spacing: 0.08px;
 }
 
-#terms,
-.attend {
+#terms, .attend {
     display: flex;
     flex-direction: column;
     gap: 24px;
@@ -313,7 +312,7 @@ export default {
 #terms p {
     color: var(--grey-grey-3, #7E8494);
     font-family: "GeneralSans-Medium", "DM Sans", sans-serif;
-    font-size: 16px;
+    font-size: 24px;
     font-style: normal;
     font-weight: 500;
     line-height: 36px;
@@ -329,7 +328,7 @@ export default {
 .private ul li {
     color: var(--grey-grey-3, #7E8494);
     font-family: "GeneralSans-Medium", "DM Sans", sans-serif;
-    font-size: 16px;
+    font-size: 24px;
     font-style: normal;
     font-weight: 500;
     line-height: 36px;
@@ -347,7 +346,7 @@ export default {
 .links a {
     color: var(--primary-p-300, #0009B3);
     font-family: "GeneralSans-Medium", "DM Sans", sans-serif;
-    font-size: 18px;
+    font-size: 24px;
     font-style: normal;
     font-weight: 500;
     line-height: 36px;
@@ -357,7 +356,7 @@ export default {
 
 #change p {
     color: var(--grey-grey-3, #7E8494);
-    font-size: 18px;
+    font-size: 24px;
     font-style: normal;
     font-weight: 500;
     line-height: 36px;
@@ -374,7 +373,7 @@ export default {
 
 #change h6 {
     color: var(--grey-grey-1, #303237);
-    font-size: 20px;
+    font-size: 24px;
     font-style: normal;
     font-weight: 500;
     line-height: 36px;
@@ -383,7 +382,7 @@ export default {
 
 #contact h6 {
     color: var(--grey-grey-1, #303237);
-    font-size: 20px;
+    font-size: 24px;
     font-style: normal;
     font-weight: 500;
     line-height: 36px;
@@ -392,11 +391,21 @@ export default {
 
 #contact p {
     color: var(--grey-grey-3, #7E8494);
-    font-size: 16px;
+    font-size: 24px;
     font-style: normal;
     font-weight: 500;
     line-height: 36px;
     /* 150% */
+}
+#contact p a{
+    color: var(--primary-p-300, #0009B3);
+    font-family: "GeneralSans-Medium", "DM Sans", sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 36px;
+    /* 150% */
+    text-decoration-line: underline;
 }
 
 #contact {
@@ -410,7 +419,7 @@ export default {
 
 .private h6 {
     color: var(--grey-grey-1, #303237);
-    font-size: 20px;
+    font-size: 24px;
     font-style: normal;
     font-weight: 500;
     line-height: 36px;
@@ -419,7 +428,7 @@ export default {
 
 .private p {
     color: var(--grey-grey-3, #7E8494);
-    font-size: 16px;
+    font-size: 24px;
     font-style: normal;
     font-weight: 500;
     line-height: 36px;
@@ -475,25 +484,22 @@ export default {
         display: flex;
         flex-direction: column;
         align-items: flex-start;
-        gap: 64px;
+        gap: 50px;
     }
 
-    .body {
-        padding: 20px 0px 20px 0px;
-    }
 
     .container {
         max-width: 89%;
         margin-inline: auto;
         display: flex;
         gap: 64px;
-        margin-bottom: 64px;
+        margin-bottom: 50px;
     }
 
     #terms h1 {
         color: #00044B;
         font-family: "GeneralSans-Medium", "DM Sans", sans-serif;
-        font-size: 32px;
+        font-size: 24px;
         font-style: normal;
         font-weight: 600;
         line-height: normal;
@@ -502,10 +508,50 @@ export default {
 
     #change h6,
     #contact h6,
-    .private {
-        text-align: left;
-        font-size: 17px;
-        font-weight: 600;
+    .private h6 {
+    text-align: left;
+    font-size: 20px;
+    font-weight: 600;
+	line-height: 30px;
     }
+    #terms p, .private p, #contact p, #change p{
+    font-size: 16px !important;
+    font-style: normal;
+    font-weight: 500 !important;
+    line-height: 24px !important;
+    }
+    .private ul li {
+        width: 95%;
+    color: var(--grey-grey-3, #7E8494);
+    font-family: "GeneralSans-Medium", "DM Sans", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    list-style: circle;
+    text-align: left;
+   margin: auto;
+    /* 150% */
+}
+#contact p a{
+    color: var(--primary-p-300, #0009B3);
+    font-family: "GeneralSans-Medium", "DM Sans", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    /* 150% */
+    text-decoration-line: underline;
+}
+.links a {
+  color: var(--primary-p-300, #0009b3);
+  font-family: "GeneralSans-Medium", "DM Sans", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  /* 150% */
+  text-decoration-line: underline;
+}
 }
 </style>

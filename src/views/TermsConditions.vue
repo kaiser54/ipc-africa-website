@@ -61,10 +61,10 @@
               providers used by the app
             </p>
             <div class="links">
-              <a href="#">Google Play Services</a>
-              <a href="#">Google Analytics for Firebase </a>
-              <a href="#">Firebase Crashlytics</a>
-              <a href="#"> Expo</a>
+              <a href="https://policies.google.com/terms" target="_blank">Google Play Services</a>
+              <a href="https://firebase.google.com/terms/analytics" target="_blank">Google Analytics for Firebase </a>
+              <a href="https://firebase.google.com/terms/crashlytics" target="_blank">Firebase Crashlytics</a>
+              <a href="https://expo.dev/terms" target="_blank"> Expo</a>
             </div>
             <p class="forth">
               You should be aware that there are certain things that Independent
@@ -177,7 +177,7 @@ export default {
   text-align: justify;
 }
 .body_wrap {
-  padding: 64px 0px 64px 0px;
+  padding: 64px 0px;
 }
 .container {
   max-width: 85%;
@@ -289,7 +289,7 @@ export default {
 .links a {
   color: var(--primary-p-300, #0009b3);
   font-family: "GeneralSans-Medium", "DM Sans", sans-serif;
-  font-size: 18px;
+  font-size: 24px;
   font-style: normal;
   font-weight: 500;
   line-height: 36px;
@@ -299,7 +299,7 @@ export default {
 
 #change p {
   color: var(--grey-grey-3, #7e8494);
-  font-size: 18px;
+  font-size: 24px;
   font-style: normal;
   font-weight: 500;
   line-height: 36px;
@@ -315,7 +315,7 @@ export default {
 }
 #change h6 {
   color: var(--grey-grey-1, #303237);
-  font-size: 20px;
+  font-size: 24px;
   font-style: normal;
   font-weight: 500;
   line-height: 36px;
@@ -323,7 +323,7 @@ export default {
 }
 #contact h6 {
   color: var(--grey-grey-1, #303237);
-  font-size: 20px;
+  font-size: 24px;
   font-style: normal;
   font-weight: 500;
   line-height: 36px;
@@ -332,7 +332,7 @@ export default {
 
 #contact p {
   color: var(--grey-grey-3, #7e8494);
-  font-size: 16px;
+  font-size: 24px;
   font-style: normal;
   font-weight: 500;
   line-height: 36px;
@@ -347,6 +347,17 @@ export default {
   align-self: stretch;
   /* margin-bottom: 300px; */
 }
+#contact p a{
+    color: var(--primary-p-300, #0009B3);
+    font-family: "GeneralSans-Medium", "DM Sans", sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 36px;
+    /* 150% */
+    text-decoration-line: underline;
+}
+
 @media screen and (max-width: 1200px) {
   .bookmark-group {
     display: none;
@@ -370,10 +381,20 @@ export default {
   }
 }
 @media screen and (max-width: 600px) {
+	.links a {
+  color: var(--primary-p-300, #0009b3);
+  font-family: "GeneralSans-Medium", "DM Sans", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  /* 150% */
+  text-decoration-line: underline;
+}
   .bookmark-group {
     display: none;
   }
-  p {
+  #contact p, #change p {
     font-size: 16px !important;
     font-style: normal;
     font-weight: 500 !important;
@@ -387,15 +408,13 @@ export default {
     align-items: flex-start;
     gap: 64px;
   }
-  /* .body_wrap {
-    padding: 20px 0px 20px 0px;
-  } */
+
   .container {
     max-width: 89%;
     margin-inline: auto;
     display: flex;
     gap: 64px;
-    margin-bottom: 64px;
+    margin-bottom: 50px;
   }
   #terms h1 {
     color: #00044b;
@@ -407,8 +426,9 @@ export default {
   #change h6,
   #contact h6 {
     text-align: left;
-    font-size: 17px;
+    font-size: 20px;
     font-weight: 600;
+	line-height: 30px;
   }
   #terms {
     gap: 16px;
