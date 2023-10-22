@@ -443,5 +443,15 @@ export default {
     line-height: 24px;
     /* 150% */
   }
+  #contact p a{
+    color: var(--primary-p-300, #0009B3);
+    font-family: "GeneralSans-Medium", "DM Sans", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    /* 150% */
+    text-decoration-line: underline;
+}
 }
 </style>
